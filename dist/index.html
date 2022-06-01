@@ -3,9 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <title>To-do app</title>
 <script defer src="index.js"></script></head>
 <body>
-  <h1>To do test</h1>
+  <main class="main-container">
+  <div class="todo-line">
+    <p>Today's To Do</p>
+    <ion-icon name="sync-outline"></ion-icon>
+  </div>
+  <div class="add-line">
+    <form class="input-form" action="#">
+      <input class="add-input" type="text" placeholder="Add to your list...">
+    </form>
+    <ion-icon name="return-down-back-outline"></ion-icon>
+  </div>
+  <section class="todo-lists">
+    <!-- <div class="todo-item"> -->
+      <!-- <div class="inner-box">
+      <form class="check-form" action="#">
+        <input type="checkbox" class="checkbox" name="checkbox" value="false">
+        <span class="mark"></span>
+      </form>
+      <p class="task-name">Wash dishes</p>
+    </div>
+    <ion-icon name="ellipsis-vertical-outline"></ion-icon> -->
+    <!-- </div> -->
+  </section>
+
+  <div class="clear">
+    <a class="clear-all" href="#"><h2>Clear All Completed</h2></a>
+  </div>
+</main>
 </body>
 </html>

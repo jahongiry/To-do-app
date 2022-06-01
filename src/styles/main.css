@@ -1,3 +1,84 @@
-body {
-  background-color: red;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  font-size: 3rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 10rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px, rgba(10, 37, 64, 0.35) 0 -2px 6px 0 inset;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+}
+
+.todo-line {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-bottom: 1px solid rgba(50, 50, 93, 0.25);
+}
+
+.add-line {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-bottom: 1px solid rgba(50, 50, 93, 0.25);
+}
+
+.input-form {
+  /* border: none; */
+}
+
+.add-input {
+  border: none;
+  outline: none;
+  font-size: 3rem;
+}
+
+.add-input::placeholder {
+  font-style: italic;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-bottom: 1px solid rgba(50, 50, 93, 0.25);
+}
+
+.inner-box {
+  display: flex;
+}
+
+.checkbox {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.clear {
+  text-align: center;
+  padding: 3rem;
+  margin-bottom: 1rem;
+}
+
+.clear-all {
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.568);
+  transition: 0.4s;
+}
+
+.clear-all:hover,
+.clear-all:active {
+  color: rgba(0, 0, 0, 0.726);
+  border-bottom: 3px solid #00f;
 }
