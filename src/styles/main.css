@@ -26,42 +26,74 @@ html {
   border-bottom: 1px solid rgba(50, 50, 93, 0.25);
 }
 
+.dots {
+  width: 4rem;
+}
+
+.trashbin {
+  width: 5rem;
+  padding: 0;
+  display: none;
+}
+
 .add-line {
-  display: flex;
-  justify-content: space-between;
   padding: 2rem;
   border-bottom: 1px solid rgba(50, 50, 93, 0.25);
 }
 
 .input-form {
-  /* border: none; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .add-input {
   border: none;
   outline: none;
   font-size: 3rem;
+  width: 90%;
 }
 
 .add-input::placeholder {
   font-style: italic;
 }
 
+.submit-task {
+  border: none;
+  background: inherit;
+  font-size: 2.5rem;
+}
+
 .todo-item {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
+  margin: 0 0.4rem;
   border-bottom: 1px solid rgba(50, 50, 93, 0.25);
 }
 
 .inner-box {
   display: flex;
+  width: 200%;
 }
 
 .checkbox {
-  width: 2rem;
+  width: 5rem;
   height: 2rem;
   margin-right: 1rem;
+}
+
+.check-form {
+  display: flex;
+  width: 100%;
+}
+
+.task-name {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-size: 3rem;
+  margin-left: 1rem;
+  width: 200%;
 }
 
 .clear {
