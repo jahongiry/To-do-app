@@ -34,9 +34,16 @@ Open _Terminal/Shell_ inside your _VSCode_ and run
   ```
     npm install --force
   ```
+    ```
+    npm run dev
+  ```
 
 ### Run tests
 
+- For running project
+  ```
+    npm run dev
+  ```
 - For _hint_ tests, run
   ```
     npm run lint:hint
