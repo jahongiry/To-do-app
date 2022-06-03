@@ -16,7 +16,7 @@ export const bluring = (taskName, toDoItem, trashBin, dots) => {
         trashBin[i].style.display = 'none';
         dots[i].style.display = 'block';
       };
-      setTimeout(delaying, 150);
+      setTimeout(delaying, 200);
     });
   }
 };

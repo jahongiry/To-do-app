@@ -2,7 +2,8 @@ const generate = ({ description }) => `
   <div class="todo-item">
   <div class="inner-box">
   <form class="check-form" action="#">
-    <input type="checkbox" class="checkbox" name="checkbox" value="false">
+    <ion-icon class="checkbox" name="stop-outline"></ion-icon>
+    <ion-icon class="checked" name="checkmark-outline"></ion-icon>
     <input class="task-name" type="text" value="${description}">
   </form>
 </div>
