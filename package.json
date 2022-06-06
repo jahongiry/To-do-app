@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/jahongiry/to-do-app/issues"
   },
-  "homepage": "https://github.com/jahongiry/to-do-app#readme",
+  "homepage": "https://github.com/jahongiry/to-do-app",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
