@@ -38,8 +38,8 @@ Open _Terminal/Shell_ inside your _VSCode_ and run
 ### Run tests
 
 - For running project
-  ```
-    npm run dev
+
+    `npm run dev`
   ```
 - For _hint_ tests, run
   ```
