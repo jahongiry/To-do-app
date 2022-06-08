@@ -8,7 +8,8 @@
 
 ## Live version
 
- https://jahongiry.github.io/to-do-app/
+ [https://jahongiry.github.io/to-do-app/](https://jahongiry.github.io/To-do-App-deployed/
+)
 
 ## Getting Started
 
